@@ -5,7 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title>hello-vue</title>
+    <!-- Bootstrap Core and Font Icon -->
+    <link rel="stylesheet" href="/static/plugins/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/static/plugins/animate-css/vivify.min.css" />
+    <link rel="stylesheet" href="/static/plugins/font-awesome/css/font-awesome.min.css">
+
+    <!-- Core css -->
+    <link rel="stylesheet" href="/static/css/main.css"/>
+
+    <!-- Plugins css data table -->
+    <link rel="stylesheet" href="/static/plugins/datatable/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="/static/plugins/datatable/fixedeader/dataTables.fixedcolumns.bootstrap4.min.css">
+    <link rel="stylesheet" href="/static/plugins/datatable/fixedeader/dataTables.fixedheader.bootstrap4.min.css">
+
+    <title>hi-redis</title>
   </head>
   <body>
     <noscript>
@@ -13,5 +26,18 @@
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+
+  <script src="/static/bundles/libscripts.bundle.js"></script>
+  <script src="/static/bundles/vendorscripts.bundle.js"></script>
+
+  <script src="/static/bundles/mainscripts.bundle.js"></script>
+
+
+  
   </body>
+  <!-- data table -->
+  <script src="/static/bundles/dataTables.bundle.js"></script>
+
+  <script src="/static/bundles/mainscripts.bundle.js"></script>
+  <script src="/static/js/table/datatable.js"></script>
 </html>
